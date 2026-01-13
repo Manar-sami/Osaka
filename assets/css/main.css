@@ -1,0 +1,21 @@
+:root{
+    --primarycolor:#ff206e;
+
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show{
+color: var(--primarycolor);
+}
+.nav-link{
+    color: white;
+}
+.nav-link:focus, .nav-link:hover{
+    color: white;
+}
+.__primarycolor{
+color: var(--primarycolor);
+}
+.hero{
+    background-image: url(/assets/image/hero/bg.jpg);
+   background-size: cover;
+   background-position: center;
+}
