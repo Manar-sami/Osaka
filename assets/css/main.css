@@ -19,3 +19,6 @@ color: var(--primarycolor);
    background-size: cover;
    background-position: center;
 }
+.about{
+    background-image: url(/assets/image/about/light_dot.jpg);
+}
