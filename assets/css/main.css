@@ -19,6 +19,19 @@ color: var(--primarycolor);
    background-size: cover;
    background-position: center;
 }
-.about{
+.about,
+.Portfolio
+{
     background-image: url(/assets/image/about/light_dot.jpg);
+}
+.Portfolio .nav-link{
+    color: black;
+    transition: .5s;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    background-color: white;
+      color: var(--primarycolor);;
+}
+.Portfolio .nav-link:hover{
+    color: var(--primarycolor);
 }
