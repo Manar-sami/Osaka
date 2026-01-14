@@ -15,7 +15,7 @@ color: var(--primarycolor);
 color: var(--primarycolor);
 }
 .hero{
-    background-image: url(/assets/image/hero/bg.jpg);
+    background-image: url(/assets/image/hero/hero.jpg);
    background-size: cover;
    background-position: center;
 }
