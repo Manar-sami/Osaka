@@ -35,3 +35,46 @@ color: var(--primarycolor);
 .Portfolio .nav-link:hover{
     color: var(--primarycolor);
 }
+.Testimonials-content {
+  padding: 50px;
+}
+.client-review{
+    border: 2px solid #f4f4f4;
+}
+.client-review{
+    position: relative;
+}
+.client-image{
+    position: absolute;
+    bottom: 80%;
+    left: 46%;
+    z-index: 1;
+    
+}
+.client-review img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 3px white solid;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, .15);
+}
+.client-title::after{
+      content: "";
+    display:block;
+   border-bottom: 1px solid var(--primarycolor);
+   width: 40px;
+   margin: 5px auto;
+   
+}
+.carousel-inner{
+    overflow:visible;
+}
+@media screen and (max-width: 600px) {
+    .client-image{
+    position: absolute;
+    bottom: 85%;
+    left: 34%;
+    z-index: 1;
+    
+}
+}
